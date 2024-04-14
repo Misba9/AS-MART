@@ -1,0 +1,371 @@
+/* for login form start hear*/
+
+html {
+    background-color: whitesmoke;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* nav bar start herew */
+.navbar {
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#navbar {
+    position: sticky;
+
+}
+
+#navbar-brand {
+    color: #28a745 !important;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    margin-top: 6px;
+}
+
+/* .space {
+    margin-right: 12px;
+    padding: 5px 5px;
+} */
+
+#pad {
+    padding: 10;
+}
+
+.space-1 {
+    margin-right: 25px;
+}
+
+.navbar {
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: aliceblue;
+}
+
+/* navbar end here */
+.login-form {
+    /* right: .2rem; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    padding: 2rem;
+    border-radius: .7rem;
+    background-color: rgb(255, 255, 255);
+    /* padding: 5rem 10rem 5rem 10rem; */
+    display: grid;
+    place-items: center;
+    align-self: center;
+    width: 25%;
+}
+
+/* box-sizing: border-box; */
+.continar_account {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+#log-head {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.login-form .log {
+    text-transform: uppercase;
+    font-size: 1.09rem;
+    color: var(--black);
+    margin-bottom: 10px;
+
+}
+
+.login-form .input-box {
+    border: 1px solid #28a745;
+    background-color: white;
+    margin: .7rem 5;
+    border-radius: .5rem;
+    padding: .4rem;
+    width: 100%;
+}
+
+
+.logbtn {
+    margin-top: 10px;
+}
+
+#logbtn:hover {
+    background-color: #3ddc62;
+}
+
+#logbtn {
+    margin-top: 10px;
+    color: white;
+    background-color: #28a745;
+}
+
+.input-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* for login form end hear*/
+
+/* for shopping cart option */
+
+.shopping-cart .box-cart {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.shopping-cart .box-cart img {
+    height: 4rem;
+}
+
+.shopping-cart .box-cart .fa-trash {
+    font-size: 1rem;
+    top: 50%;
+    right: 2.5rem;
+    cursor: pointer;
+    color: var(--light-color);
+    right: 0.5rem;
+    transform: translateY(-50%);
+}
+
+.shopping-cart .box-cart .fa-trash:hover {
+    color: var(--red);
+}
+
+.btn-outline-success {
+    padding: 21rem;
+
+}
+
+.shopping-cart .box-cart .fa-trash h5 {
+    color: var(--black);
+    font-size: 1.7rem;
+    padding-bottom: 5rem;
+    scroll-behavior: smooth;
+}
+
+#cart {
+    color: var(--black);
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.shopping-cart .box-cart .fa-trash span {
+    color: var(--black);
+    font-size: 1.5rem;
+}
+
+#price {
+    color: var(--black);
+    font-size: 1.2rem;
+}
+
+.shopping-cart .box-cart .fa-trash .price {
+    padding-left: 9rem;
+}
+
+
+#total {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--black);
+}
+
+.flootR {
+    float: right;
+    text-indent: 15px;
+}
+
+.proceed {
+    width: 49%;
+    font-size: 10rem;
+}
+
+.check {
+    font-size: 10rem;
+    width: 49%;
+}
+
+.shopping-cart {
+    padding: 1rem;
+    border-radius: 1.2rem;
+    box-shadow: var(--box-shadow);
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 35rem 20px 35rem;
+    /* margin: 10px 10rem 10px 10rem; */
+    background-color: whitesmoke;
+}
+
+.items-cart {
+    background-color: rgb(255, 255, 255);
+    padding: 2px 20px 2px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.box-cart {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: .2px solid gray;
+
+}
+
+.container-cart {
+    flex-grow: 1;
+    margin-left: 1rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+.bill {
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 0px 20px 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.li-he {
+    line-height: 2rem;
+    font-size: 1.2rem;
+
+}
+
+.f-s {
+    font-size: 1rem;
+}
+
+#plus {
+    margin: .1rem .25em;
+}
+
+.img-fluid {
+    max-width: auto;
+    height: auto;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 1881px) {
+
+    .shopping-cart {
+        padding: 20px 25rem 20px 25rem;
+    }
+
+}
+
+@media (max-width: 1181px) {
+/* for account page*/
+    .login-form {
+        /* margin: 7rem 15rem 5rem 15rem; */
+        width: 40%;
+    }
+/* for shopping page */
+    .shopping-cart {
+        padding: 20px 14rem 20px 14rem;
+        /* margin: 10px 7rem 10px 7rem; */
+    }
+}
+
+@media (max-width: 990px) {
+/* for acount page */
+    .login-form {
+        /* margin: 7rem 5rem 5rem 5rem; */
+        width: 55%;
+    }
+/* for shopping page */
+    .shopping-cart {
+        padding: 15px 7rem 20px 7rem;
+        /* margin: 10px 4rem 10px 4rem; */
+    }
+
+    .space {
+        margin-right: 0;
+        margin-top: 5px;
+        padding: 5px 5px;
+        text-align: right;
+        position: absolute;
+        z-index: 1000;
+        top: 0%;
+        right: 1.9%;
+        margin-right: 12px;
+        padding: 5px 5px;
+    }
+}
+
+.d-flex {
+    width: 100%;
+    margin-top: 1.2rem;
+    margin-left: 12px;
+}
+
+.carousel {
+    position: relative;
+}
+
+.features {
+    margin-top: 4rem;
+
+}
+
+@media (max-width: 600px) {
+
+    .login-form {
+        /* margin: 0rem 0rem 0rem 0rem; */
+        width: 100%;
+    }
+
+    /* .continar_account {
+        margin: 0rem 0rem 0rem 0rem;
+
+    } */
+
+    .shopping-cart {
+        padding: 15px 0rem 20px 0rem;
+        /* margin: 10px 0rem 10px 0rem; */
+    }
+}
+
+
+/* for shopping cart option end hear*/
