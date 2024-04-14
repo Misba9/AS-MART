@@ -1,0 +1,260 @@
+/* nav search bar */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.space {
+    margin-right: 12px;
+    padding: 5px 5px;
+}
+
+.space-1 {
+    margin-right: 25px;
+}
+
+.cart i,
+.account i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.f {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: aliceblue;
+}
+
+.cart i,
+.account i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* nav and search bar end  */
+
+/* for the cart section start*/
+
+#cart-img {
+    -ms-flex-negative: -20;
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card {
+    width: 11rem;
+    height: 17.5rem;
+}
+
+.card-btn {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
+}
+
+.right {
+    float: right;
+    margin-top: 6px;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: auto;
+    height: 150px;
+}
+
+.card-text {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 630;
+}
+
+#del {
+    font-size: 12.9px;
+    font-weight: 400;
+}
+
+p {
+    margin-bottom: 0rem !important;
+}
+
+.card-title {
+    margin-bottom: 0rem !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 23px;
+    overflow: hidden;
+}
+
+.container-row {
+    position: relative;
+}
+.row-c{
+    
+    justify-content: center !important;
+}
+.container-cart {
+    max-width: 1437px;
+    padding-top: 4.6rem;
+}
+.card{
+    border: none;
+}
+.mb-2,
+.my-2 {
+    margin-bottom: 0.5rem !important;
+    margin: 12px;
+}
+
+/* cart section end */
+
+/* contact us start */
+.contact-c {
+    height: auto;
+}
+
+.form-c {
+    max-width: 58%;
+    margin: 6px auto;
+}
+
+.text-center-c {
+    padding-top: 26px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 21px;
+}
+
+.form-input {
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 1px 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading span {
+    background-color: var(--green);
+    color: white;
+    padding: 0.5rem 1.2rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+.heading {
+    text-align: center;
+    padding: 1.2rem 0;
+    font-size: 1.3rem;
+    color: var(--black);
+}
+
+.card-bottom {
+    padding: 0;
+    margin-top: 10px;
+    position: relative;
+}
+
+/* contact us end */
+
+
+@media (max-width: 990px) {
+    .space {
+        margin-right: 0;
+        margin-top: 5px;
+        padding: 5px 5px;
+        text-align: right;
+        position: absolute;
+        z-index: 1000;
+        top: 0%;
+        right: 1.9%;
+    }
+
+    .d-flex {
+        width: 100%;
+        margin-top: 1.2rem;
+        margin-left: 12px;
+    }
+
+    .container-cart {
+        padding-right: 9px;
+        padding-left: 9px;
+        padding-top: 8.2rem;
+        /* max-width: 1044px; */
+    }
+
+    .card-body {
+        padding: .7rem;
+    }
+
+    #del {
+        font-size: 12.9px;
+        font-weight: 400;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .card-body {
+        padding: .46rem;
+    }
+
+    p {
+        margin-bottom: 0rem !important;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    #card {
+        width: 8.8rem;
+        height: 16.7rem;
+    }
+
+    .mb-2,
+    .my-2 {
+        margin: 8px;
+    }
+
+    .right {
+        float: right;
+        margin-top: 3px;
+        line-height: 1.27;
+    }
+
+    .text-center-c {
+        font-size: 18px;
+    }
+
+}
+
+
