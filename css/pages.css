@@ -14,7 +14,9 @@ body {
     right: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1020;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 10px #ddd;
 }
 
 #navbar {
@@ -67,7 +69,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 
 /* navbar end here */

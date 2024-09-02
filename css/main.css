@@ -15,7 +15,9 @@
     right: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1020;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 10px #ddd;
 }
 
 #navbar {
@@ -69,7 +71,7 @@
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 /* for login form start hear*/
@@ -126,8 +128,8 @@
 .f {
     position: fixed;
     width: 100%;
-    z-index: 1000;
-    background-color: aliceblue;
+    /* z-index: 1000; */
+    /* background-color: aliceblue; */
 }
 
 .cart i,
@@ -472,7 +474,7 @@ p {
 .card-title {
     margin-bottom: 0rem !important;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    /* -webkit-line-clamp: 2; */
     -webkit-box-orient: vertical;
     line-height: 23px;
     overflow: hidden;
